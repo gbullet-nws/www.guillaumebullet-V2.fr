@@ -43,7 +43,7 @@
 
     <main>
 
-        <!-- 1ère Section -->
+        <!-- 1ère Section --> <!-- Navigation page principale -->
         <section>
             <!-- Texte d'Accueil -->
             <div id="texte-accueil"> 
@@ -71,11 +71,11 @@
         <!--séparateur-->
         <hr><br><br>
 
-         <!-- 2ème section-->
+         <!-- 2ème section--> <!-- Prés. Perso. -->
         <section class="wrapper-type2">
             <!-- Titre Présentation Personnelle -->
             <div class="container-type2-title" id="ancre-qsj">
-                <h2> Qui suis-je ? </h2>
+                <h2 class="bleu"> Qui suis-je ? </h2>
                 <p> Présentation Personnelle.</p> 
             </div>
 
@@ -120,7 +120,7 @@
                             des demandes pouvant varier sur les tâches à accomplir… De quoi mettre un premier pied dans le monde professionnel. </p>
                     </div>
                     <div class="">
-                        <img class="container-type2-img1" src="assets/img/guillaume_bullet_imac_tournesol.jpg" alt="guillaume bullet image d'iMac Tournesol Apple MacIntosh">
+                        <img class="container-type2-img1" src="assets/img/guillaume_bullet_bts_assistant_manager.jpg" alt="guillaume bullet image d'iMac Tournesol Apple MacIntosh">
                     </div>
                     <div class="sub-container-type2">
                         <h4 class="sub-container-type2-title"> Mes premiers projets. </h4>
@@ -146,7 +146,7 @@
                             Jusqu’à peu, j’étais surtout sur Final Cut Pro, aimant toujours le montage vidéo.  </p>
                     </div>
                     <div class="">
-                        <img class="container-type2-img1" src="assets/img/guillaume_bullet_imac_tournesol.jpg" alt="guillaume bullet image d'iMac Tournesol Apple MacIntosh">
+                        <img class="container-type2-img1" src="assets/img/normandie_web_school_formations.jpg" alt="guillaume bullet image d'iMac Tournesol Apple MacIntosh">
                     </div>
                     <div class="sub-container-type2">
                         <h4 class="sub-container-type2-title"> Réorientation finale. </h4>
@@ -169,7 +169,7 @@
         <!-- séparateur -->
     <br> <hr> <br>
 
-
+        <!-- 3ème section --> <!-- CV & Compétences-->
         <section class="wrapper-type2">
             <!-- Titre de section -->
             <div class="container-type1-column">
@@ -217,8 +217,9 @@
                         <img class="container-type2-img2" src="assets/img/guillaume_bullet_cv_web.png" alt="guillaume bullet cv pour le web">
                     </div>
                 </div>
+
+                <!-- Expériences -->
                 <div class="sub-container-type2-row-reverse">
-                    <!-- Expériences -->
                     <div class="">
                         <div class=" sub-container-type2">
                             <h3 class="bleu"> Expériences </h3>
@@ -247,7 +248,11 @@
 
                     <!-- Lettre de recommandation -->
                     <div class="sub-container-type2-row">
-                        <img class="container-type2-img2" src="assets/img/guillaume_bullet_lettre_de_recommandation_island_properties.jpg" alt="guillaume bullet lettre de recommandation d'Island Properties">
+                        <a href="LettreDeRecommandation.html" target="_blank"> 
+                            <img    class="container-type2-img3" 
+                                    src="assets/img/guillaume_bullet_lettre_de_recommandation_island_properties.jpg" 
+                                    alt="guillaume bullet lettre de recommandation d'Island Properties"> 
+                        </a>
                     </div>
 
                 </div>
@@ -259,20 +264,33 @@
 
        <br> <hr> <br>
         
-        <section>
-            <div id="ancre-projets" class="">
-                <h2> Projets </h2>
-                <div class="">
+       <!-- 4ème section --> <!-- Liens vers les projets -->
+        <section class="wrapper-type1">
+            <div id="ancre-projets" >
+                <h2 class="container-type2-title bleu"> Projets </h2>
+                <div class="sub-wrapper-type1">
                     <div class="">
-                        <a href="projet_iawa.html"> <img class="img-projets" id="img-projet-iawa" src="assets/img/guillaume_bullet_iawa_indonesia_page_accueil.jpg" alt="guillaume bullet iawa indonesia page d'accueil"> </a>
+                        <a href="projet_iawa.html"> <img class="img-presentation-projets" src="assets/img/guillaume_bullet_iawa_indonesia_page_accueil.jpg" alt="guillaume bullet iawa indonesia page d'accueil"> </a>
                         <p id="titre-projet-iawa"> IAWA Indonesia </p> <br>
                     </div>
                     <div class="">
-                        <a href="projet_3.html"> <img class="img-projets" id="img-projet-3" src="assets/img/guillaume_bullet_projet_3.png" alt="guillaume bullet site html et css page d'accueil"> </a>
+                        <a href="projet_3.html"> <img class="img-presentation-projets" src="assets/img/guillaume_bullet_projet_3.png" alt="guillaume bullet site html et css page d'accueil"> </a>
                         <p id="titre-projet-3"> Personal Branding Site </p> <br>
                     </div>
                     <div class="">
-                        <a href="projet_psychobject.html"> <img class="img-projets" id="img-projets-2" src="assets/img/guillaume_bullet_psychobject_logo.png" alt="guillaume bullet site Psych'Object page d'accueil"> </a>
+                        <a href="projet_psychobject.html"> <img class="img-presentation-projets" src="assets/img/guillaume_bullet_psychobject_logo.png" alt="guillaume bullet site Psych'Object page d'accueil"> </a>
+                        <p id="titre-projet-2"> Psych'Object : Projet Étudiant </p> <br>
+                    </div>
+                    <div class="">
+                        <a href="projet_iawa.html"> <img class="img-presentation-projets" src="assets/img/guillaume_bullet_iawa_indonesia_page_accueil.jpg" alt="guillaume bullet iawa indonesia page d'accueil"> </a>
+                        <p id="titre-projet-iawa"> IAWA Indonesia </p> <br>
+                    </div>
+                    <div class="">
+                        <a href="projet_3.html"> <img class="img-presentation-projets" src="assets/img/guillaume_bullet_projet_3.png" alt="guillaume bullet site html et css page d'accueil"> </a>
+                        <p id="titre-projet-3"> Personal Branding Site </p> <br>
+                    </div>
+                    <div class="">
+                        <a href="projet_psychobject.html"> <img class="img-presentation-projets" src="assets/img/guillaume_bullet_psychobject_logo.png" alt="guillaume bullet site Psych'Object page d'accueil"> </a>
                         <p id="titre-projet-2"> Psych'Object : Projet Étudiant </p> <br>
                     </div>
                 </div>
