@@ -114,6 +114,11 @@
         color:#4372ad;
         font-size: 16px;
     }
+    .container-type1-paragraph2
+    {
+        font-size: 20px;
+        text-align: center;
+    }
 .sub-container-type1
 {
     display: flex;
@@ -186,7 +191,7 @@
     .container-type2-img2, .container-type2-img3
     {
         display: flex;
-        width: 550px;
+        width: 600px;
         margin: 0 auto;
         transition: 0.3s;
     }
